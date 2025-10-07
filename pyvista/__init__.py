@@ -33,3 +33,6 @@ from pyvista.report import Report as Report
 from pyvista.report import check_math_text_support as check_math_text_support
 from pyvista.report import check_matplotlib_vtk_compatibility as check_matplotlib_vtk_compatibility
 from pyvista.report import get_gpu_info as get_gpu_info
+
+# Send VTK messages to the logging module:
+send_errors_to_logging()
